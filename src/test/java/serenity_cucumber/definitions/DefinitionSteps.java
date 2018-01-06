@@ -1,4 +1,4 @@
-package serenity_cucumber.steps;
+package serenity_cucumber.definitions;
 
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
