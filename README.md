@@ -1,6 +1,14 @@
 This is a basic Serenity Cucumber Test Automation framework for Acceptance testing
 
+For now:
+- This framework works only on Windows
+- This framework works only on Chrome v65
+
 To run the test:
-1. Now it is can only be used on Windows
-2. Please put chromedriver.exe of v.2.33 into drivers package inside the project
-3. Configure Gradle Runner: 'clean test aggregate'
+- Please put v.2.37 chromedriver.exe into drivers package inside the project
+- Configure Gradle Runner: 'clean test aggregate'
+- Or run from console: gradle clean test aggregate
+
+Reports can be found in project here:
+5. Cucumber reports: \\serenitycucumber\build\reports\tests\test\index.html
+6. Serenity reports: \\serenitycucumber\target\site\serenity\index.html

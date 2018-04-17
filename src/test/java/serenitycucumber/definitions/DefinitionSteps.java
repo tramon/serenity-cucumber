@@ -1,16 +1,16 @@
-package serenity_cucumber.definitions;
+package serenitycucumber.definitions;
 
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import serenity_cucumber.steps.serenity.EndUserSteps;
+import serenitycucumber.steps.serenity.EndUserSteps;
 
 public class DefinitionSteps {
 
     @Steps
-    EndUserSteps anna;
+    private EndUserSteps anna;
 
     @Given("the user is on the Wikionary home page")
     public void givenTheUserIsOnTheWikionaryHomePage() {

@@ -1,8 +1,8 @@
-package serenity_cucumber.steps.serenity;
+package serenitycucumber.steps.serenity;
 
-import serenity_cucumber.pages.DictionaryPage;
+import org.fluentlenium.core.annotation.Page;
+import serenitycucumber.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.steps.ScenarioSteps;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
@@ -10,7 +10,8 @@ import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps {
 
-    DictionaryPage dictionaryPage;
+    @Page
+    private DictionaryPage dictionaryPage;
 
     @Step
     public void enters(String keyword) {
