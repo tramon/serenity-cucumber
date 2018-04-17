@@ -10,5 +10,5 @@ To run the test:
 - Or run from console: gradle clean test aggregate
 
 Reports can be found in project here:
-5. Cucumber reports: \\serenitycucumber\build\reports\tests\test\index.html
-6. Serenity reports: \\serenitycucumber\target\site\serenity\index.html
+- Cucumber reports: \\serenitycucumber\build\reports\tests\test\index.html
+- Serenity reports: \\serenitycucumber\target\site\serenity\index.html
