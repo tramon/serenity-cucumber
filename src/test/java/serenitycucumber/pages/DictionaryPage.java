@@ -1,6 +1,7 @@
 package serenitycucumber.pages;
 
 import net.thucydides.core.annotations.DefaultUrl;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -11,6 +12,8 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.pages.PageObject;
 
 import java.util.List;
+
+import static org.hamcrest.Matchers.is;
 
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
 public class DictionaryPage extends PageObject {
